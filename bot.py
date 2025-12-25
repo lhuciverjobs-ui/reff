@@ -5,7 +5,7 @@ import random
 import string
 import os
 
-REFERRAL_CODE = "TRUTH-9EBG7TYV" # Change it with yours.
+REFERRAL_CODE = "TRUTH-RSWP1864" # Change it with yours.
 
 class AutoRefTruthTensor:
     def __init__(self, referral_code: str):
@@ -500,4 +500,5 @@ if __name__ == "__main__":
     DELAY_BETWEEN = 5
     
     bot = AutoRefTruthTensor(REFERRAL_CODE)
+
     bot.run(total_accounts=TOTAL_ACCOUNTS, delay_between=DELAY_BETWEEN)
